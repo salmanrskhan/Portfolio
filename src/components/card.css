@@ -1,0 +1,30 @@
+.card {
+    /* background: #3a3a3c;
+    background: #333;
+    background: hsl(270, 5%, 44%);
+    background: hsl(270, 5%, 15%);*/
+    background: #000;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: .5s;
+    border-color: #565656;
+    /* border-color: #444; */
+}
+
+.card:hover {
+    background: transparent;
+    border-color: #fff;
+    transform: translateY(-0.4rem);
+}
+
+/* .card.light {
+    background: rgb(123, 123, 123);
+}
+
+.card.light:hover {
+    background: transparent;
+    border-radius: 5px;
+} */
+
+@media screen and (max-width: 991px) {}

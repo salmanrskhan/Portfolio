@@ -1,0 +1,46 @@
+nav {
+    width: 100%;
+    background: #000;
+    padding: 1.1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    box-shadow: 0 1rem 1.5rem hsla(270, 15%, 75%, 16%);
+    border-bottom: 1px solid rgb(51 53 63);
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-primary);
+    transition: var(--transition);
+}
+
+.nav__logo {
+    max-width: 130px;
+    overflow: hidden;
+}
+
+.nav__menu {
+    display: flex;
+    gap: 3.2rem;
+}
+
+#theme__icon {
+    background: transparent;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+    .nav__menu {
+        display: none;
+    }
+    nav {
+        padding: .8rem 0;
+        position: static;
+    }
+}

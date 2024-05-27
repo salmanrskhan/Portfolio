@@ -1,0 +1,59 @@
+.project_btns {
+  padding-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: rgb(255 255 255);
+  flex-wrap: wrap;
+}
+
+.project__container ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 3rem 1.8rem;
+  max-height: 80vh;
+  overflow-y: scroll;
+  /* scrollbar-width: 8px; */
+  /* scrollbar-color: #888 #f1f1f1; */
+}
+
+.project__container ul::-webkit-scrollbar {
+  display: block!important;
+  width: 8px;
+}
+
+.project__container ul::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey;
+  border-radius: 10px;
+  background: #424242;
+}
+
+.project__container ul::-webkit-scrollbar-thumb {
+  background: #686868;
+  border-radius: 10px;
+}
+
+.project__container ul::-webkit-scrollbar-thumb:hover {
+  background: #afafaf;
+}
+
+@media screen and (max-width: 991px) {
+  .project__container ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project__container ul {
+    grid-template-columns: 80%;
+   justify-content: center
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .project__container ul {
+    grid-template-columns: 100%;
+  }
+}
