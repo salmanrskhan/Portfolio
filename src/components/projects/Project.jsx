@@ -5,14 +5,16 @@ import { motion, useInView } from "framer-motion";
 import './project.css'
 
 import image1 from '../../assets/asian.png';
-import image3 from '../../assets/knocial-web.png';
-import image5 from '../../assets/pink-flamingo.png';
-import image6 from '../../assets/nimt.png';
-import image7 from '../../assets/dashboard.png';
-import image8 from '../../assets/product-list.png';
-import image9 from '../../assets/tenzies.png';
-import image10 from '../../assets/notes.png';
-import image11 from '../../assets/gsap-task.png';
+import image2 from '../../assets/knocial-web.png';
+import image3 from '../../assets/pink-flamingo.png';
+import image4 from '../../assets/nimt.png';
+import image5 from '../../assets/dashboard.png';
+import image6 from '../../assets/product-list.png';
+import image7 from '../../assets/tenzies.png';
+import image8 from '../../assets/notes.png';
+import image9 from '../../assets/gsap-task.png';
+import image10 from '../../assets/tic-tac-toe.png';
+import image11 from '../../assets/calci.png';
 
 const projectsData = [
   {
@@ -28,70 +30,88 @@ const projectsData = [
     id: 2,
     title: "Knocial",
     description: "HTML, CSS, JavaScript",
-    image: image3,
+    image: image2,
     tag: ["All", "Live", "Website"],
     gitUrl: "https://github.com/salmanrskhan/knocial-website",
     previewUrl: "https://knocial-web.netlify.app/",
   },
   {
     id: 3,
-    title: "Products-list",
-    description: "React, CSS",
-    image: image8,
-    tag: ["All", "React"],
-    gitUrl: "https://github.com/salmanrskhan/product-lists/tree/main/frontend",
-    previewUrl: "https://product-lists-cli.vercel.app/",
-  },
-  {
-    id: 4,
     title: "Tenzie",
     description: "React, CSS",
-    image: image9,
+    image: image7,
     tag: ["All", "React"],
     gitUrl: "https://github.com/salmanrskhan/tenzies-react",
     previewUrl: "https://tenzies-r-game.netlify.app/",
   },
   {
+    id: 4,
+    title: "Tic-Tac-Toe",
+    description: "React, CSS",
+    image: image10,
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/salmanrskhan/tic-tac-toe",
+    previewUrl: "https://tic-tac-toe-six-bay-17.vercel.app/",
+  },
+  {
     id: 5,
+    title: "Investment Calculator",
+    description: "React, CSS",
+    image: image11,
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/salmanrskhan/investment-calci",
+    previewUrl: "https://investment-calci-one.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Products-list",
+    description: "React, CSS",
+    image: image6,
+    tag: ["All", "React"],
+    gitUrl: "https://github.com/salmanrskhan/product-lists/tree/main/frontend",
+    previewUrl: "https://product-lists-cli.vercel.app/",
+  },
+  {
+    id: 7,
     title: "Pink-flamingo",
     description: "HTML, CSS, JavaScript",
-    image: image5,
+    image: image3,
     tag: ["All", "Web", "Website"],
     gitUrl: "https://github.com/salmanrskhan/Pink-flamingo",
     previewUrl: "https://pink-flam.netlify.app/",
   },
   {
-    id: 6,
+    id: 8,
     title: "NIMT",
     description: "HTML, CSS, JavaScript",
-    image: image6,
+    image: image4,
     tag: ["All", "Live", "Website"],
     gitUrl: "https://github.com/salmanrskhan/Nimt-College",
     previewUrl: "https://nimt-web.netlify.app/",
   },
   {
-    id: 7,
+    id: 9,
     title: "Notes",
     description: "React, CSS",
-    image: image10,
+    image: image8,
     tag: ["All", "React"],
     gitUrl: "https://github.com/salmanrskhan/note-app",
     previewUrl: "https://react-notesapp-fb.netlify.app/",
   },
   {
-    id: 7,
+    id: 10,
     title: "Dashboard",
     description: "React, CSS",
-    image: image7,
+    image: image5,
     tag: ["All", "React"],
     gitUrl: "https://github.com/salmanrskhan/dashboard",
     previewUrl: "https://dashboard-rosy-psi.vercel.app/",
   },
   {
-    id: 8,
+    id: 11,
     title: "GSAP-work",
     description: "HTML, CSS, JavaScript",
-    image: image11,
+    image: image9,
     tag: ["All", ""],
     gitUrl: "https://github.com/salmanrskhan/GSAP-task",
     previewUrl: "https://gsap-task.netlify.app/",
