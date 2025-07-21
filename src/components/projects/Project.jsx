@@ -23,7 +23,7 @@ const projectsData = [
     description: "HTML, CSS, JavaScript",
     image: image1,
     tag: ["All", "Live", "Website"],
-    gitUrl: "https://github.com/salmanrskhan/Pink-flamingo",
+    gitUrl: "https://github.com/salmanrskhan/Asian-Scale",
     previewUrl: "https://asian-scales.netlify.app/",
   },
   {
